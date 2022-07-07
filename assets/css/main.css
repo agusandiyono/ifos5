@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-area .tns-nav button:hover, .carousel-area .tns-nav button.tns-nav-active {
+  background: #fff;
+}
+/*# sourceMappingURL=main.css.map */
