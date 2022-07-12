@@ -405,7 +405,7 @@
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
             <div class="peta" style="width:800px">
                 <div class="embed-responsive embed-responsive-21by9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.8566217993155!2d112.76408042162582!3d-7.0436112637492005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd805ed4a3e99fb%3A0x4f5847d3d4e262f0!2sSolite%20Kids!5e0!3m2!1sid!2sid!4v1647918104012!5m2!1sid!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1745820140363!2d112.77544491487527!3d-7.220918072908762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f84db21a9edf%3A0x4022753dbe5c1c33!2sSMA%20Negeri%2019%20Surabaya!5e0!3m2!1sid!2sid!4v1657589466705!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
           </div>
