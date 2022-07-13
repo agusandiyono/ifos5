@@ -87,9 +87,11 @@
       id="home"
       class="relative overflow-hidden bg-transparent pt-[120px] md:pt-[130px] lg:pt-[160px]"
     >
+
       <div class="container px-4">
-        <div class="-mx-4 flex flex-wrap items-center">
-          <img class="object-cover" src="banner.png">
+        <div class="container flex flex-wrap items-center">
+
+          <img class="object-cover" src="banner2.png">
         </div>
         <p class="text-center text-gray-600">
           IFOS ( Islamic Festival Of Smanexix ) adalah sebuah festival seni dan budaya Islam serta kompetisi pengetahuan Islam yang diadakan oleh Sie Kerohanian Islam  (SKI) SMAN 19 Surabaya, dan merupakan program kerja terbesar di setiap tahunnya.
