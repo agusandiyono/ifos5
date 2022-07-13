@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind screens;
 
 .carousel-area .tns-nav button:hover, .carousel-area .tns-nav button.tns-nav-active {
   background: #fff;

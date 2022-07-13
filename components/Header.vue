@@ -5,8 +5,8 @@
       class="ud-header absolute top-0 left-0 z-40 flex w-full items-center bg-white shadow-lg"
     >
       <div class="container">
-        <div class="relative -mx-4 flex items-center justify-between">
-          <div class="w-60 max-w-full">
+        <div class="relative -mx-2 flex items-center justify-between">
+          <div class="w-40 max-w-full">
             <a href="index.html" class="navbar-logo block w-full py-5">
               <img class="header-logo w-32" src="logokecil.png">
             </a>
@@ -93,45 +93,52 @@
 
           <img class="object-cover" src="banner2.png">
         </div>
-        <p class="text-center text-gray-600">
+        <p class="text-center text-gray-400 pt-5">
           IFOS ( Islamic Festival Of Smanexix ) adalah sebuah festival seni dan budaya Islam serta kompetisi pengetahuan Islam yang diadakan oleh Sie Kerohanian Islam  (SKI) SMAN 19 Surabaya, dan merupakan program kerja terbesar di setiap tahunnya.
         </p>
+        <a
+              href="https://ifos5.carrd.co/"
+              class="mt-6 items-center px-6 py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
+            >
+              Daftar Online
+            </a>
       </div>
     </div>
     <!-- ====== Hero Section End -->
 
     <!-- ====== Hero Sponsor Start -->
-    <section id="sponson" class="pt-5 md:pt-[120px]">
-      <div class="container px-4">
+    <section id="sponsor" class="pt-5 md:pt-[50px] pb-6">
+      <div class="container px-7">
         <div class="flex flex-wrap">
           <div class="mx-4 w-full">
-            <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
+            <div class="mx-auto mb-[25px] max-w-[600px] text-center lg:mb-10">
               <h2
-                class="mb-4 text-3xl font-bold text-gray-500 sm:text-4xl md:text-[42px]"
+                class="mb-7 text-2xl font-bold text-gray-400 sm:text-4xl md:text-[20px]"
               >
                 SUPPORT BY
               </h2>
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap">
-          <div class="mx-4 w-full">
-            <div class="wow fadeInUp" data-wow-delay=".2s">
-              <div class="ud-brands-logo flex flex-wrap items-center">
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor1.png"
-                      alt="tailgrids"
-                      class="grayscale duration-300 hover:filter-none"
-                    />
-                  </a>
-                </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+        <div class="flex flex-wrap items-center justify-items-center">
+          <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-5 md:gap-5">
+            <!-- <div class="pb-5 w-full px-4 lg:w-1/4 sm:w-1/2" v-for="index in 10"> -->
+            <!-- <div class="w-1/2 pb-[20px] px-2 " v-for="index in 10"> -->
+            <div class="b-[20px] px-2 " v-for="index in 10">
+              <a
+                href="#"
+                target="_blank"
+                rel="nofollow noopner"
+              >
+                <img
+                  :src="`sponsor/sponsor${index}.png`"
+                  alt="ifos5"
+                  class="w-full"
+                />
+              </a>
+              </div>
+            </div>
+                <!-- <div class="pb-5 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -140,11 +147,11 @@
                     <img
                       src="sponsor/sponsor2.png"
                       alt="ayroui"
-                      class="grayscale duration-300 hover:filter-none"
+                      class="duration-300 hover:filter-none"
                     />
                   </a>
                 </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                  <div class="pb-2 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -153,11 +160,11 @@
                     <img
                       src="sponsor/sponsor3.png"
                       alt="uideck"
-                      class="grayscale duration-300 hover:filter-none"
+                      class=" hover:filter-none"
                     />
                   </a>
                 </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                  <div class="pb-2 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -166,11 +173,11 @@
                     <img
                       src="sponsor/sponsor4.png"
                       alt="graygrids"
-                      class="grayscale duration-300 hover:filter-none"
+                      class="hover:filter-none"
                     />
                   </a>
                 </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                  <div class="pb-2 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -179,11 +186,11 @@
                     <img
                       src="sponsor/sponsor5.png"
                       alt="lineicons"
-                      class="grayscale duration-300 hover:filter-none"
+                      class=" hover:filter-none"
                     />
                   </a>
                 </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                  <div class="pb-2 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -192,11 +199,11 @@
                     <img
                       src="sponsor/sponsor6.png"
                       alt="tailgrids"
-                      class="grayscale duration-300 hover:filter-none"
+                      class=" hover:filter-none"
                     />
                   </a>
                 </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                  <div class="pb-2 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -205,11 +212,11 @@
                     <img
                       src="sponsor/sponsor7.png"
                       alt="ayroui"
-                      class="grayscale duration-300 hover:filter-none"
+                      class=" hover:filter-none"
                     />
                   </a>
                 </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                  <div class="pb-2 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -218,11 +225,11 @@
                     <img
                       src="sponsor/sponsor8.png"
                       alt="uideck"
-                      class="grayscale duration-300 hover:filter-none"
+                      class=" hover:filter-none"
                     />
                   </a>
                 </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                  <div class="pb-2 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -231,11 +238,11 @@
                     <img
                       src="sponsor/sponsor9.png"
                       alt="graygrids"
-                      class="grayscale duration-300 hover:filter-none"
+                      class=" hover:filter-none"
                     />
                   </a>
                 </div>
-                <div class="ud-single-logo mr-10 mb-5 max-w-[140px]">
+                  <div class="pb-2 sm:w-1/2 md:w-1/5">
                   <a
                     href="#"
                     target="_blank"
@@ -247,23 +254,21 @@
                       class="grayscale duration-300 hover:filter-none"
                     />
                   </a>
-                </div>
+                </div> -->
               </div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
     <!-- ====== Hero Section End -->
 
     <!-- ====== Lomba Start ====== -->
-    <section id="lomba" class="pt-10 pb-10 md:pt-[120px] bg-gray-200">
+    <section id="lomba" class="pb-[15px] pt-[25px] bg-gray-200">
       <div class="container px-4">
         <div class="flex flex-wrap">
           <div class="mx-4 w-full">
-            <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
+            <div class="mx-auto mb-[30px] max-w-[620px] text-center">
               <h2
-                class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
+                class=" text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
               >
                 DAFTAR LOMBA
               </h2>
@@ -314,13 +319,13 @@
 
 
 <!-- ====== Lomba Start ====== -->
-    <section id="lomba" class="px-5 md:pt-[120px]">
-      <div class="container px-4">
+    <section id="lomba" class="px-1 pt-[25px] pb-[25px]" >
+      <div class="container ">
         <div class="flex flex-wrap">
-          <div class="mx-4 w-full">
-            <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
+          <div class=" w-full">
+            <div class="mx-auto mb-[25px] max-w-[620px] text-center lg:mb-10">
               <h2
-                class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
+                class="mb-3 text-3xl font-bold text-dark sm:text-4xl md:text-[35px]"
               >
                 TIMELINE
               </h2>
@@ -354,11 +359,11 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Lomba Start ====== -->
-    <section id="lomba" class="px-5 md:pt-[120px] bg-gray-200">
-      <div class="container px-4">
+    <section id="pendaftaran" class=" pt-[30px] pb-4 bg-gray-200">
+      <div class="container">
         <div class="flex flex-wrap">
           <div class="mx-4 w-full">
-            <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
+            <div class="mx-auto max-w-[620px] text-center ">
               <h2
                 class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
               >
@@ -368,19 +373,19 @@
           </div>
         </div>
         <div class="flex flex-wrap">
-          <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
-            <p class="text-gray-400"> Online: </p>
+          <div class="w-full px-4 pb-2 md:w-1/2 lg:w-1/5">
+            <p class="text-gray-400 "> Online: </p>
             <a
-              href="#"
-              class="mt-6 items-center px-6 py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
+              href="https://ifos5.carrd.co/"
+              class="mt-6 items-center py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
             >
-              Daftar Online
+              Daftar Sekarang
             </a>
           </div>
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
-            <div class="pl-20">
+            <div class="">
               <p class="text-gray-400"> Offline: </p>
-              <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">Masjid Tis'ata Ashar</h2>
+              <h2 class="mb-1 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">Masjid Tis'ata Ashar</h2>
               <span>Jl. Kedung Cowek No. 390 - Surabaya</span>
             </div>
           </div>
@@ -390,10 +395,10 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Lomba Start ====== -->
-    <section id="lomba" class="px-5 md:pt-[120px]">
+    <section id="lomba" class="pt-[50px]">
       <div class="container px-4">
         <div class="flex flex-wrap">
-          <div class="mx-4 w-full">
+          <div class="mx-2 w-full">
             <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
               <h2
                 class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
@@ -404,10 +409,10 @@
           </div>
         </div>
         <div class="flex flex-wrap">
-          <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
+          <div class="w-full px-4 pb-6 md:w-1/2 lg:w-1/5">
             <div class="peta" style="width:800px">
                 <div class="embed-responsive embed-responsive-21by9">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1745820140363!2d112.77544491487527!3d-7.220918072908762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f84db21a9edf%3A0x4022753dbe5c1c33!2sSMA%20Negeri%2019%20Surabaya!5e0!3m2!1sid!2sid!4v1657589466705!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1745820140363!2d112.77544491487527!3d-7.220918072908762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f84db21a9edf%3A0x4022753dbe5c1c33!2sSMA%20Negeri%2019%20Surabaya!5e0!3m2!1sid!2sid!4v1657589466705!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                 </div>
             </div>
           </div>
