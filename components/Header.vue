@@ -276,7 +276,7 @@
           <div class="mx-4 w-full">
             <div class="mx-auto mb-[30px] max-w-[620px] text-center">
               <h2
-                class=" text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
+                class=" text-2xl font-bold text-gray-500 sm:text-4xl md:text-[25px]"
               >
                 DAFTAR LOMBA
               </h2>
@@ -333,7 +333,7 @@
           <div class=" w-full">
             <div class="mx-auto mb-[25px] max-w-[620px] text-center lg:mb-10">
               <h2
-                class="mb-3 text-3xl font-bold text-dark sm:text-4xl md:text-[35px]"
+                class="mb-3 text-2xl font-bold text-gray-400 sm:text-4xl md:text-[25px] lg:text-[10px]"
               >
                 TIMELINE
               </h2>
@@ -367,13 +367,13 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Lomba Start ====== -->
-    <section id="pendaftaran" class=" pt-[60px] pb-6 bg-gray-200">
+    <section id="pendaftaran" class=" pt-[20px] pb-6 bg-gray-200">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="mx-4 w-full">
             <div class="mx-auto max-w-[620px] text-center ">
               <h2
-                class="mb-4 text-2xl font-bold text-dark sm:text-4xl md:text-[25px]"
+                class="mb-2 text-2xl font-bold text-gray-400 sm:text-4xl md:text-[25px]"
               >
                 PENDAFTARAN
               </h2>
@@ -382,18 +382,18 @@
         </div>
         <div class="flex flex-wrap">
           <div class="w-full px-4 pb-2 md:w-1/2 lg:w-1/5">
-            <p class="text-gray-400 "> Online: </p>
+            <p class="text-gray-400 text-center"> Online: </p>
             <a
               href="https://ifos5.carrd.co/"
-              class="mt-6 items-center py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
+              class="mt-2 items-center py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
             >
               Daftar Online
             </a>
           </div>
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
             <div class="">
-              <p class="text-gray-400"> Offline: </p>
-              <h2 class="mb-1 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">Masjid Tis'ata Ashar</h2>
+              <p class="text-gray-400 text-center mb-2"> Offline: </p>
+              <h2 class="mb-1 text-3xl text-center font-bold text-dark sm:text-4xl md:text-[42px]">Masjid Tis'ata Ashar</h2>
               <span>Jl. Kedung Cowek No. 390 - Surabaya</span>
             </div>
           </div>
@@ -417,7 +417,7 @@
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-4 md:gap-5">
             <!-- <div class="pb-5 w-full px-4 lg:w-1/4 sm:w-1/2" v-for="index in 10"> -->
             <!-- <div class="w-1/2 pb-[20px] px-2 " v-for="index in 10"> -->
-            <div class="pb-[20px] px-2 " v-for="index in 4">
+            <div class="pb-1 px-1 " v-for="index in 4">
               <a
                 href="#"
                 target="_blank"
@@ -428,6 +428,7 @@
                   alt="ifos5"
                   class="w-full"
                 />
+                
               </a>
               </div>
             </div>
