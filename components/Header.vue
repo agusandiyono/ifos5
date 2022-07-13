@@ -2,7 +2,7 @@
   <div>
   <!-- ====== Navbar Section Start -->
     <div
-      class="ud-header absolute top-0 left-0 z-40 flex w-full items-center bg-white shadow-lg"
+      class="ud-header fixed top-0 left-0 z-40 flex w-full items-center bg-white shadow-lg "
     >
       <div class="container">
         <div class="relative -mx-2 flex items-center justify-between">
@@ -13,7 +13,15 @@
           </div>
           <div class="flex w-full items-center justify-end px-4">
             <div>
-              <button
+        
+        <a
+              href="https://ifos5.carrd.co/"
+              class="lg:hidden mt-2 items-center px-3 py-3 text-sm w-full block text-white font-semibold bg-yellow-500 hover:bg-green-800 rounded-full shadow-sm text-center"
+            >
+              Daftar Sekarang
+            </a>
+      
+              <!-- <button
                 id="navbarToggler"
                 class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
               >
@@ -26,20 +34,20 @@
                 <span
                   class="relative my-[6px] block h-[2px] w-[30px] bg-white"
                 ></span>
-              </button>
+              </button> -->
               <nav
                 id="navbarCollapse"
                 class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-4 lg:shadow-none xl:px-6"
               >
                 <ul class="blcok lg:flex">
-                  <!-- <li class="group relative">
+                  <li class="group relative">
                     <a
                       href="#home"
                       class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-green-600 lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-gray lg:group-hover:text-gray lg:group-hover:opacity-70"
                     >
                       Beranda
                     </a>
-                  </li> -->
+                  </li>
                   <li class="group relative">
                     <a
                       href="/#sponsor"
@@ -98,9 +106,9 @@
         </p>
         <a
               href="https://ifos5.carrd.co/"
-              class="mt-6 items-center px-6 py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
+              class=" mt-6 items-center px-6 py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
             >
-              Daftar Online
+              Daftar Sekarang
             </a>
       </div>
     </div>
@@ -359,13 +367,13 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Lomba Start ====== -->
-    <section id="pendaftaran" class=" pt-[30px] pb-4 bg-gray-200">
+    <section id="pendaftaran" class=" pt-[60px] pb-6 bg-gray-200">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="mx-4 w-full">
             <div class="mx-auto max-w-[620px] text-center ">
               <h2
-                class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
+                class="mb-4 text-2xl font-bold text-dark sm:text-4xl md:text-[25px]"
               >
                 PENDAFTARAN
               </h2>
@@ -379,7 +387,7 @@
               href="https://ifos5.carrd.co/"
               class="mt-6 items-center py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
             >
-              Daftar Sekarang
+              Daftar Online
             </a>
           </div>
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
@@ -395,27 +403,46 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Lomba Start ====== -->
-    <section id="lomba" class="pt-[50px]">
+    <section id="lomba" class="pt-[20px] pb-[40px] justify-items-center" >
       <div class="container px-4">
-        <div class="flex flex-wrap">
+        <!-- <div class="flex flex-wrap">
           <div class="mx-2 w-full">
             <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
-              <h2
-                class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]"
-              >
-                KONTAK KAMI
-              </h2>
+              jhgjh
             </div>
           </div>
-        </div>
+        </div> -->
+
+  <div class="flex flex-wrap items-center justify-items-center">
+          <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-4 md:gap-5">
+            <!-- <div class="pb-5 w-full px-4 lg:w-1/4 sm:w-1/2" v-for="index in 10"> -->
+            <!-- <div class="w-1/2 pb-[20px] px-2 " v-for="index in 10"> -->
+            <div class="pb-[20px] px-2 " v-for="index in 4">
+              <a
+                href="#"
+                target="_blank"
+                rel="nofollow noopner"
+              >
+                <img
+                  :src="`sosmed/sosmed${index}.png`"
+                  alt="ifos5"
+                  class="w-full"
+                />
+              </a>
+              </div>
+            </div>
+
         <div class="flex flex-wrap">
-          <div class="w-full px-4 pb-6 md:w-1/2 lg:w-1/5">
+          <!-- <div class="w-full px-4 pb-6 md:w-1/2 lg:w-1/5">
             <div class="peta" style="width:800px">
                 <div class="embed-responsive embed-responsive-21by9">
-                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1745820140363!2d112.77544491487527!3d-7.220918072908762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f84db21a9edf%3A0x4022753dbe5c1c33!2sSMA%20Negeri%2019%20Surabaya!5e0!3m2!1sid!2sid!4v1657589466705!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.1745820140363!2d112.77544491487527!3d-7.220918072908762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f84db21a9edf%3A0x4022753dbe5c1c33!2sSMA%20Negeri%2019%20Surabaya!5e0!3m2!1sid!2sid!4v1657589466705!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-          </div>
+          </div> -->
+          
+<!--           
+          
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
             <div class="flex">
               <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
@@ -449,8 +476,8 @@
               <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
                 <p class="text-green-600">ifos.skinexixsby@gmail.com</p>
               </div>
-            </div>
-          </div>
+            </div>-->
+          </div> 
         </div>
       </div>
     </section>
