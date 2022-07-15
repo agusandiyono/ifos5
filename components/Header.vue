@@ -101,10 +101,10 @@
 
           <img class="object-cover" src="banner2.png">
         </div>
-        <p class="text-center text-gray-400 pt-5">
+        <p class="text-center text-gray-400 pt-5 ">
           IFOS ( Islamic Festival Of Smanexix ) adalah sebuah festival seni dan budaya Islam serta kompetisi pengetahuan Islam yang diadakan oleh Sie Kerohanian Islam  (SKI) SMAN 19 Surabaya, dan merupakan program kerja terbesar di setiap tahunnya.
         </p>
-        <a
+            <a
               href="https://ifos5.carrd.co/"
               class=" mt-6 items-center px-6 py-3 text-lg w-full block text-white font-semibold bg-green-500 hover:bg-green-800 rounded-full shadow-sm text-center"
             >
@@ -128,11 +128,11 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap items-center justify-items-center">
-          <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-5 md:gap-5">
+        <div class="items-center justify-items-center">
+          <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-5 md:gap-5 pb-2" >
             <!-- <div class="pb-5 w-full px-4 lg:w-1/4 sm:w-1/2" v-for="index in 10"> -->
             <!-- <div class="w-1/2 pb-[20px] px-2 " v-for="index in 10"> -->
-            <div class="b-[20px] px-2 " v-for="index in 10">
+            <div class="b-[20px] pb-2 px-2 " v-for="index in 10">
               <a
                 href="#"
                 target="_blank"
@@ -394,7 +394,7 @@
             <div class="">
               <p class="text-gray-400 text-center mb-2"> Offline: </p>
               <h2 class="mb-1 text-3xl text-center font-bold text-dark sm:text-4xl md:text-[42px]">Masjid Tis'ata Ashar</h2>
-              <span>Jl. Kedung Cowek No. 390 - Surabaya</span>
+              <h2 class="text-center">Jl. Kedung Cowek No. 390 - Surabaya</h2>
             </div>
           </div>
         </div>
@@ -403,7 +403,7 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Lomba Start ====== -->
-    <section id="lomba" class="pt-[20px] pb-[40px] justify-items-center" >
+    <section id="lomba" class="pt-[40px] pb-[40px] sm:pt-10 justify-items-center" >
       <div class="container px-4">
         <!-- <div class="flex flex-wrap">
           <div class="mx-2 w-full">
@@ -413,8 +413,8 @@
           </div>
         </div> -->
 
-  <div class="flex flex-wrap items-center justify-items-center">
-          <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-4 md:gap-5">
+  <div class=" items-center justify-items-center">
+          <div class="grid grid-cols-2 gap-4 items-center lg:grid-cols-4 lg:gap-4 sm:grid-cols-2 md:grid-cols-4 md:gap-5  " >
             <!-- <div class="pb-5 w-full px-4 lg:w-1/4 sm:w-1/2" v-for="index in 10"> -->
             <!-- <div class="w-1/2 pb-[20px] px-2 " v-for="index in 10"> -->
             <div class="pb-1 px-1 " v-for="index in 4">
