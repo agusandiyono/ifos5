@@ -358,9 +358,13 @@
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/4">
               <img class="header-logo" src="timeline/timeline3.png">
           </div>
-          <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/4">
+          <div class="relative w-full px-4 pb-4 md:w-1/2 lg:w-1/4">
               <img class="header-logo" src="timeline/timeline4.png">
-              <!-- <button class="absolute bg-green-500 hover:bg-green-800 rounded-full text-white px-10 py-2 bottom-4 left-1/2 -translate-x-1/2">Download Poster</button> -->
+              <a
+              href="https://drive.google.com/file/d/15TGr-AUWbfX0KYsKNIOcsb1HH2ZdvS0Q/view?usp=sharing"
+              button class="absolute bg-green-500 hover:bg-green-800 rounded-full text-center w-64 text-white px-10 py-2 bottom-9 left-2/4 -translate-x-1/2">Unduh Poster</button>
+              <!-- <button class="absolute bg-green-500 hover:bg-green-800 rounded-full text-white px-9 py-2 bottom-4 left-1/2 -translate-x-1/2">UnduhPoster</button> -->
+              </a>
           </div>
         </div>
       </div>
