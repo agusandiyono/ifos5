@@ -298,7 +298,7 @@
           </div>
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/3">
             <img
-              src="lomba/3albanjari.png"
+              src="lomba/3albanjari_1.png"
               class="duration-300 hover:filter-none"
             />
           </div>
@@ -360,6 +360,7 @@
           </div>
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/4">
               <img class="header-logo" src="timeline/timeline4.png">
+              <!-- <button class="absolute bg-green-500 hover:bg-green-800 rounded-full text-white px-10 py-2 bottom-4 left-1/2 -translate-x-1/2">Download Poster</button> -->
           </div>
         </div>
       </div>
@@ -403,7 +404,7 @@
     <!-- ====== Testimonials End ====== -->
 
     <!-- ====== Lomba Start ====== -->
-    <section id="lomba" class="pt-[40px] pb-[40px] sm:pt-10 justify-items-center" >
+    <section id="lomba" class="pt-[40px] pb-[40px] justify-items-center" >
       <div class="container px-4">
         <!-- <div class="flex flex-wrap">
           <div class="mx-2 w-full">
