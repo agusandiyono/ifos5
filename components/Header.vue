@@ -398,7 +398,7 @@
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/5">
             <div class="">
               <p class="text-gray-400 text-center mb-2"> Offline: </p>
-              <h2 class="mb-1 text-3xl text-center font-bold text-dark sm:text-4xl md:text-[42px]">Masjid Tis'ata Ashar</h2>
+              <h2 class="mb-1 text-3xl text-center font-bold text-dark sm:text-4xl md:text-[42px]">Masjid Tis'ata Asyar</h2>
               <h2 class="text-center">Jl. Kedung Cowek No. 390 - Surabaya</h2>
             </div>
           </div>
