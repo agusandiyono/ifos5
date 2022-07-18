@@ -484,6 +484,14 @@
                 <p class="text-green-600">ifos.skinexixsby@gmail.com</p>
               </div>
             </div>-->
+
+
+<!-- Histats.com  START (hidden counter) -->
+<a href="/" alt="" target="_blank" >
+<img  src="//sstatic1.histats.com/0.gif?4680425&101" alt="" border="0">
+<!-- Histats.com  END  -->
+
+
           </div> 
         </div>
       </div>
