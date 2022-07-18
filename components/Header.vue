@@ -93,7 +93,7 @@
     <!-- ====== Hero Section Start -->
     <div
       id="home"
-      class="relative overflow-hidden bg-transparent pt-[120px] md:pt-[130px] lg:pt-[160px]"
+      class="relative overflow-hidden bg-transparent pb-4 pt-[120px] md:pt-[130px] lg:pt-[160px]"
     >
 
       <div class="container px-4">
@@ -101,7 +101,7 @@
 
           <img class="object-cover" src="banner2.png">
         </div>
-        <p class="text-center text-gray-400 pt-5 ">
+        <p class="text-center text-gray-400 pt-5  ">
           IFOS ( Islamic Festival Of Smanexix ) adalah sebuah festival seni dan budaya Islam serta kompetisi pengetahuan Islam yang diadakan oleh Sie Kerohanian Islam  (SKI) SMAN 19 Surabaya, dan merupakan program kerja terbesar di setiap tahunnya.
         </p>
             <a
@@ -115,7 +115,7 @@
     <!-- ====== Hero Section End -->
 
     <!-- ====== Hero Sponsor Start -->
-    <section id="sponsor" class="pt-5 md:pt-[50px] pb-6">
+    <!-- <section id="sponsor" class="pt-5 md:pt-[50px] pb-6">
       <div class="container px-7">
         <div class="flex flex-wrap">
           <div class="mx-4 w-full">
@@ -130,8 +130,7 @@
         </div>
         <div class="items-center justify-items-center">
           <div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-5 md:gap-5 pb-2" >
-            <!-- <div class="pb-5 w-full px-4 lg:w-1/4 sm:w-1/2" v-for="index in 10"> -->
-            <!-- <div class="w-1/2 pb-[20px] px-2 " v-for="index in 10"> -->
+           
             <div class="b-[20px] pb-2 px-2 " v-for="index in 10">
               <a
                 href="#"
@@ -146,127 +145,11 @@
               </a>
               </div>
             </div>
-                <!-- <div class="pb-5 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor2.png"
-                      alt="ayroui"
-                      class="duration-300 hover:filter-none"
-                    />
-                  </a>
-                </div>
-                  <div class="pb-2 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor3.png"
-                      alt="uideck"
-                      class=" hover:filter-none"
-                    />
-                  </a>
-                </div>
-                  <div class="pb-2 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor4.png"
-                      alt="graygrids"
-                      class="hover:filter-none"
-                    />
-                  </a>
-                </div>
-                  <div class="pb-2 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor5.png"
-                      alt="lineicons"
-                      class=" hover:filter-none"
-                    />
-                  </a>
-                </div>
-                  <div class="pb-2 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor6.png"
-                      alt="tailgrids"
-                      class=" hover:filter-none"
-                    />
-                  </a>
-                </div>
-                  <div class="pb-2 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor7.png"
-                      alt="ayroui"
-                      class=" hover:filter-none"
-                    />
-                  </a>
-                </div>
-                  <div class="pb-2 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor8.png"
-                      alt="uideck"
-                      class=" hover:filter-none"
-                    />
-                  </a>
-                </div>
-                  <div class="pb-2 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor9.png"
-                      alt="graygrids"
-                      class=" hover:filter-none"
-                    />
-                  </a>
-                </div>
-                  <div class="pb-2 sm:w-1/2 md:w-1/5">
-                  <a
-                    href="#"
-                    target="_blank"
-                    rel="nofollow noopner"
-                  >
-                    <img
-                      src="sponsor/sponsor10.png"
-                      alt="lineicons"
-                      class="grayscale duration-300 hover:filter-none"
-                    />
-                  </a>
-                </div> -->
+                
               </div>
 
       </div>
-    </section>
+    </section> -->
     <!-- ====== Hero Section End -->
 
     <!-- ====== Lomba Start ====== -->
@@ -487,7 +370,7 @@
 
 
 <!-- Histats.com  START (hidden counter) -->
-<a href="/" alt="" target="_blank" >
+<a href="/" alt="" target="_blank" ></a>
 <img  src="//sstatic1.histats.com/0.gif?4680425&101" alt="" border="0">
 <!-- Histats.com  END  -->
 
