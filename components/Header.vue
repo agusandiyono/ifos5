@@ -232,7 +232,10 @@
               </div> -->
               <div class="relative">
                 <img src="timeline/timeline1.png" />
-                <button class="absolute bg-green-500 hover:bg-green-800 rounded-full text-white px-10 py-2 bottom-4 left-1/2 -translate-x-1/2">Panduan</button>
+                <a
+                href="https://drive.google.com/file/d/16Gcbi80Ty_Qz8iRwLGjcVgkLxLFv1GjX/view?usp=sharing"
+                button class="absolute bg-green-500 hover:bg-green-800 rounded-full text-white px-10 py-2 bottom-4 left-1/2 -translate-x-1/2">Panduan
+                </a>
               </div>
           </div>
           <div class="w-full px-4 pb-4 md:w-1/2 lg:w-1/4">
