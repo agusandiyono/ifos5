@@ -245,7 +245,7 @@
               <img class="header-logo" src="timeline/timeline4.png">
               <a
               href="https://drive.google.com/uc?export=download&id=167Q09iXRw-RpNux1NftSIen1UulyIpVV"
-              button class="absolute bg-green-500 hover:bg-green-800 rounded-full text-center w-64 text-white px-10 py-2 bottom-9 left-2/4 -translate-x-1/2"> Unduh Poster </button>
+              button class="absolute bg-green-500 hover:bg-green-800 rounded-full text-center w-64 text-white px-10 py-2 bottom-9 left-2/4 -translate-x-1/2"> Unduh Poster 
               </a>
           </div>
         </div>
