@@ -247,7 +247,7 @@
           <div class="relative w-full px-4 pb-4 md:w-1/2 lg:w-1/4">
               <img class="header-logo" src="timeline/timeline4.png">
               <a
-              href="https://drive.google.com/uc?export=download&id=167Q09iXRw-RpNux1NftSIen1UulyIpVV"
+              href="https://drive.google.com/uc?export=download&id=16aqaQdurlBL80jZZVTDI8lG4trSid8V-"
               button class="absolute bg-orange-600 hover:bg-orange-800 rounded-full text-center w-64 text-white px-10 py-2 bottom-9 left-2/4 -translate-x-1/2"> Unduh Poster 
               </a>
           </div>
